@@ -1,17 +1,37 @@
-Assignment1
+Project1
 ===========
-1. To start, [**fork** the repository][forking].
-1. [**Clone**][ref-clone] the repository to your computer.
-1. Modify the files and [**commit**][ref-commit] changes to complete your solution.
-1. [**Push**][ref-push]/sync the changes up to GitHub.
-1. [Create a **pull request**][pull-request] on the original repository to turn in the assignment.
+1. To start, [**fork** repository][forking] [fdac/Project1][assignment]
+1. Connect to your virtual machine and
+1. [**Clone**][ref-clone] the repository to your virtual machine
 
-** Edit 
+    git clone https://USERNAME@github.com/USERNAME/Project1	
+
+1. Then run
+
+   ipython notebook --no-browser
+
+1. Point your browser (on your laptop or, optionally on your virtual
+   machine) to http://localhost:8888
+1. Edit the example to complete the assignment
+1. On the virtual machine [**commit**][ref-commit] changes to complete your solution.
+
+   cd ~/Project1
+
+   git add --all
+
+   git commit
+
+1. [**Push**][ref-push]/sync the changes to GitHub.
+
+  git push
+
+1. At https://github.com/USERNAME/Project1
+   Create a [**pull request**][pull-request] on the
+   original repository [fdac/Project1][assignment]  to
+   turn in the assignment.
 
 <!-- Links -->
-[teachers-pet]: https://github.com/education/teachers_pet
-[help-add-to-team]: https://help.github.com/articles/adding-organization-members-to-a-team
-[help-access-control]: https://help.github.com/articles/what-are-the-different-access-permissions#organization-accounts
+[assignment]: https://github.com/fdac/Project1
 [forking]: https://guides.github.com/activities/forking/
 [ref-clone]: http://gitref.org/creating/#clone
 [ref-commit]: http://gitref.org/basic/#commit
