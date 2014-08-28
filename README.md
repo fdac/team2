@@ -10,12 +10,9 @@ Project1
         hostname 192.168.56.2
         LocalForward 8888 127.0.0.1:8888
     ```
-
      then simply ssh da
-	
     * If using putty, don't forget to save session information so you
     can load it and connect next time
-  
 1. [**Clone**][ref-clone] the repository to your virtual machine
 
   If you have not set these up, please do (replace USERNAME with your own):
@@ -23,27 +20,25 @@ Project1
 	git config --global user.name USERNAME
 	git config --global user.email USERNAME@users.noreply.github.com
     ```
-  You may also set up your credentials to be cashed (in seconds: 3600=1hour)
+  You may also want to set up your credentials to be cashed (in seconds: 3600=1hour)
     ```
 	git config credential.helper 'cache --timeout=3600'
     ```
-  Set up your default editor (if you like "vi" it is default)
+  Set up your default editor (vi is set by default)
     ```
 	git config --global core.editor nano
 	git clone https://USERNAME@github.com/USERNAME/Project1
     ```
-   You will be asked to enter your github username and password
-	
+   You will be asked to enter your github username and password	
    * Username for 'https://github.com': 
    * Password for 'https://USERNAME@github.com': 
-
 1. Then run
     ```
 	ipython notebook --no-browser
     ```
-1. Point your browser (on your laptop or, optionally on your virtual
+1. Point your browser (on your laptop or, optionally, on your virtual
    machine) to http://localhost:8888
-1. Edit the example to complete the assignment
+1. Edit/Run the example in the browser to complete the assignment
 1. On the virtual machine [**commit**][ref-commit] changes to complete your solution.
 
    (you may need to press \<ctrl-C\> to kill ipython notebook that was running)
@@ -56,9 +51,8 @@ Project1
      * if vi: type: i your commit comment \<ESC\> ZZ
 	 * if nano: your commit comment \<ctrl-X\> Y (to save changes)
        <enter> to confirm the file name
-
+	   
    Now back in the shell
-
 1. [**Push**][ref-push]/sync the changes to GitHub.
     ```
 	git push
