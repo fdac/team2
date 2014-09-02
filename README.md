@@ -14,7 +14,6 @@ users and repositories hosted on BitBucket.
 
 While a template for the search strategy is provided, feel free to use any means (including borrowing with attribution from the other teams) to get as many as you can within this very short but, unfortunately, very realistic time frame.  
 
-
 ## Important Notes
 
 Please keep in mind operational data pitfalls, such as 
@@ -28,6 +27,10 @@ Please keep in mind operational data pitfalls, such as
 1. Are the distributions of customer types the same in
    the retrieved and undiscovered sets of BitBucket customers?
 
+## The workflow will be a little different
 
+You can git clone https://github.com/fdac/TeamX
+repository where is X is the number of your team. You can also
+push to that repository as well (if you are on that team). 
 
 
